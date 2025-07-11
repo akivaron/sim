@@ -126,7 +126,7 @@ export function PersonaCard({
       {allDone ? (
         <div className='mt-2 rounded border border-green-200 bg-green-50 p-2'>
           <span className='font-semibold text-green-700'>Report:</span> All workflows completed.
-          (Laporan otomatis di sini)
+          {/* Automatic report goes here */}
         </div>
       ) : (
         <div className='mt-2 text-muted-foreground text-sm'>
